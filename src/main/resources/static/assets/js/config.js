@@ -1,0 +1,12 @@
+//version
+var VERSION = "0.0.1"
+
+//roles
+var ROL_ADMIN = "ADMIN";
+var ROL_EDICION = "EDICION";
+var ROL_CONSULTA = "CONSULTA";
+var ROL_EDICION_CONSULTA = "EDICION_CONSULTA";
+
+
+//estados
+var ESTADO_REASIGNADA = "REASIGNADA";
