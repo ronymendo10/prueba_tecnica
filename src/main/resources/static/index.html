@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Location Ip</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description"
+        content="Gradient Able Bootstrap admin template made using Bootstrap 4 and it has huge amount of ready made feature, UI components, pages which completely fulfills any dashboard needs." />
+    <meta name="keywords"
+        content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
+    <meta name="author" content="codedthemes" />
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/jquery-3.6.0.js">
+
+
+    <!-- Favicon icon -->
+  
+
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="files/bower_components/bootstrap/css/bootstrap.min.css">
+
+    <!-- themify icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="files/assets/icon/themify-icons/themify-icons.css">
+    <!-- list css -->
+
+    <link rel="stylesheet" type="text/css" href="files/assets/css/newcss.css?id=001">
+    <link rel="stylesheet" type="text/css" href="files/assets/pages/list-scroll/list.css">
+    <link rel="stylesheet" type="text/css" href="files/bower_components/stroll/css/stroll.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="assets/icofont/icofont.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="files/assets/icon/font-awesome/css/font-awesome.min.css">
+    <!-- scrollbar.css -->
+    <link rel="stylesheet" type="text/css" href="files/assets/css/jquery.mCustomScrollbar.css">
+    <!-- radial chart.css -->
+    <link rel="stylesheet" href="files/assets/pages/chart/radial/css/radial.css" type="text/css" media="all">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="files/assets/css/style.css">
+  
+    <link rel="stylesheet" type="text/css" href="files/assets/css/jquery.dataTables.min.css">
+
+   
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                REGISTRAR IP
+            </div>
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="idIp" placeholder="Digite la IP" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" onclick="registraIp()" type="button">REGISTRAR</button>
+                    </div>
+                </div>
+                <div id="mensaje"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                CONSULTAR IP POR PAIS
+            </div>
+            <div class="card-body">
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="idNombrePais" placeholder="Digite el nombre del Pais"
+                        aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" onclick="cargarTabla()" type="button">CONSULTAR</button>
+                    </div>
+                </div>
+                <table class="table" id="tableip">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>HORA DE CONSULTA</th>
+                            <th>NOMBRE PAIS</th>
+                            <th>CODIGO ISO</th>
+                            <th>IP</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Warning Section Ends -->
+    <script src="files/bower_components/jquery/js/jquery.min.js "></script>
+    <script src="files/bower_components/jquery-ui/js/jquery-ui.min.js "></script>
+    <script src="files/bower_components/popper.js/js/popper.min.js"></script>
+    <script src="files/bower_components/bootstrap/js/bootstrap.min.js "></script>
+    <script src="files/assets/pages/widget/excanvas.js "></script>
+    <!-- jquery slimscroll js -->
+    <script src="files/bower_components/jquery-slimscroll/js/jquery.slimscroll.js "></script>
+    <!-- modernizr js -->
+    <script src="files/bower_components/modernizr/js/modernizr.js "></script>
+    <!-- slimscroll js -->
+    <script src="files/assets/js/SmoothScroll.js"></script>
+    <script src="files/assets/js/jquery.mCustomScrollbar.concat.min.js "></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/admin.js"></script>
+ 
+
+
+
+</body>
+
+</html>
